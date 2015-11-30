@@ -17,5 +17,7 @@ API user credentials:
 ## References / Helpers ##
 
 Umbraco REST API: https://github.com/umbraco/UmbracoRestApi
+
 Ionic Framework: http://ionicframework.com/
+
 Restangular: https://github.com/mgonto/restangular
