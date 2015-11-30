@@ -14,7 +14,7 @@ API user credentials:
   * Username: ***api***
   * Password: ***password***
 
-HAL Browser URL: ***/hal-browser***
+HAL Browser URL: ***http://localhost:55368/hal-browser***
   
 ## References / Helpers ##
 
