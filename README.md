@@ -13,6 +13,8 @@ API user credentials:
 
   * Username: ***api***
   * Password: ***password***
+
+HAL Browser URL: ***/hal-browser***
   
 ## References / Helpers ##
 
