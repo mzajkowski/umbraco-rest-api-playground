@@ -1,0 +1,9 @@
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.bar.bar-positive {
+    border-color: #f37021;
+    background-color: #f37021;
+    background-image: none;
+}
