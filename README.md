@@ -19,5 +19,6 @@ HAL Browser URL: ***/hal-browser***
 ## References / Helpers ##
 
   * Umbraco REST API: https://github.com/umbraco/UmbracoRestApi
+  * HAL-Browser: https://github.com/mikekelly/hal-browser
   * Ionic Framework: http://ionicframework.com/
   * Restangular: https://github.com/mgonto/restangular
