@@ -194,3 +194,22 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Apple
+.DS_Store
+
+# Merge artifacts
+*.orig
+
+# Umbraco
+RestApiPlayground/TestSite/App_Data/cache/
+RestApiPlayground/TestSite/App_Data/courier/
+RestApiPlayground/TestSite/App_Data/Logs/
+RestApiPlayground/TestSite/App_Data/NuGetBackup/
+RestApiPlayground/TestSite/App_Data/preview/
+RestApiPlayground/TestSite/App_Data/umbraco.config
+RestApiPlayground/TestSite/App_Data/TEMP/
+RestApiPlayground/TestSite/umbraco/
+RestApiPlayground/TestSite/umbraco_client/
+RestApiPlayground/.vs
+ood.flag
