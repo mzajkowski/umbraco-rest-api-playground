@@ -1,6 +1,8 @@
 HAL.Http.Client = function(opts) {
   this.vent = opts.vent;
   this.defaultHeaders = { 'Accept': 'application/hal+json, application/json, */*; q=0.01' };
+  cookie = document.cookie.match('(^|;)\\s*' + 'MyHalBrowserToken' + '\\s*=\\s*([^;]+)');
+  cookie ? this.defaultHeaders.Authorization = 'Bearer ' + cookie.pop() : '';
   this.headers = this.defaultHeaders;
 };
 
@@ -11,7 +13,7 @@ HAL.Http.Client.prototype.get = function(url) {
     url: url,
     dataType: 'json',
     xhrFields: {
-      withCredentials: true
+      withCredentials: false
     },
     headers: this.headers,
     success: function(resource, textStatus, jqXHR) {
@@ -30,7 +32,7 @@ HAL.Http.Client.prototype.request = function(opts) {
   var self = this;
   opts.dataType = 'json';
   opts.xhrFields = opts.xhrFields || {};
-  opts.xhrFields.withCredentials = opts.xhrFields.withCredentials || true;
+  opts.xhrFields.withCredentials = opts.xhrFields.withCredentials || false;
   self.vent.trigger('location-change', { url: opts.url });
   return jqxhr = $.ajax(opts);
 };
