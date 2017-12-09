@@ -1,6 +1,6 @@
 # Umbraco REST API Playground #
 
-Simple playground and Ionic PoC using Umbraco REST API.
+Simple playground and Ionic PoC using Umbraco REST API. App was made as an addition to the article released during the 2015 24days.in Umbraco series: https://24days.in/umbraco-cms/2015/umbraco-rest-api/.
 
 ## Test Site ##
 	
